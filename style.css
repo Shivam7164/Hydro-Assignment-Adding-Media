@@ -1,0 +1,348 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ############# Coman class ########### */
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 32px;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+p{
+    font-size: 14px;
+    line-height: 22px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.flex1{
+    display: flex;
+}
+
+/* ########## header ############# */
+header{
+    height: 90vh;
+    background-image:linear-gradient(to right ,rgba(52, 52, 186, 0.712),rgba(138, 241, 148, 0.795)), url(./pexels-curtis-adams-6510967.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding-top: 2em;
+}
+
+header a{
+    text-decoration: none;
+    color: white;
+    margin-right: 1.5em;
+}
+header .child2 a{
+    margin-right: 2.5em;
+}
+header .child1{
+    font-size: 23px;
+    font-weight: 700;
+    color: white;
+}
+header .sign-in{
+    background-color: rgb(207,55,50);
+    padding: 1em 1.5em;
+    border-radius: 25px;
+    font-size: 12px;
+}
+/* ########### div.father1 ############ */
+
+header .father1{
+    margin-top: 8em;
+}
+header .father1 .child3 h2{
+    font-size: 35px;
+    color: white;
+    line-height: 1.3em;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+}
+header .father1 .child4{
+    margin-top: 1em;
+}
+header .father1 .child4 a{
+    padding: 0.8em 1.5em ;
+    font-size: 15px;
+    border-radius: 2em;
+    border: 2px solid white;
+}
+header .father1 .child5 h4{
+  font-size: 13px;
+  color: white;
+  font-weight: 700;
+}
+header .father1 .child5 p{
+  font-size: 13px;
+  color: white;
+}
+.child4{
+    display: flex;
+    align-items: center;
+}
+
+/* ############# main .father2 ############# */
+main .father2{
+    padding-top: 3em;
+}
+main .bg-color1{
+    background-color:rgb(255,255,255);
+}
+main .father2 .child6 h2{
+    font-size: 25px;
+}
+main .div{
+    width: 7px;
+    height: 7px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.249);
+}
+main .father2 .child6 p{
+     margin: 15px 0;
+     color: rgba(0, 0, 0, 0.616);
+}
+main .father2 figure{
+    width: 25%;
+}
+main .father2 figure img{
+    width: 100%;
+}
+main .father2 .child6{
+    flex: 0 1 32%;
+    font-size: 25px;
+    margin-top: 2em;
+}
+main .father2 .child7{
+    flex: 0 1 20%;
+    margin-top: 3em;
+}
+main .father2 .child8{
+    flex: 0 1 30%;
+}
+.father2 .child7 .div-100{
+    height: 2.5px;
+    background-color: black;
+}
+.father2 .child7 .div-85{
+    width: 85%;
+}
+.father2 .child7 .div-90{
+    width: 90%;
+}
+.father2 .child7 .div-75{
+    width: 75%;
+}
+.father2 .child7 .div-70{
+    width: 70%;
+}
+.father2 .child7 .margin-top{
+    margin-top: 2em;
+    font-size: 13px;
+    font-weight: 700;
+}
+
+/* ############# section .bg-color2 ############ */
+
+.bg-color2{
+    background-color: rgb(239,239,239);
+}
+.father5 figure{
+    width: 300px;
+}
+.father5 figure img{
+    width: 100%;
+    height: 100%;
+}
+.father5 .child9{
+    background-color:rgb(255,255,255) ;
+}
+main .div1{
+    width: 7px;
+    height: 7px;
+    margin-right: 5px;
+    margin-top: 5px;
+    background-color: rgba(0, 0, 0, 0.249);
+}
+main .center{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 2em;
+    padding-bottom: 1em;
+}
+main .center2{
+    text-align: center;
+    margin-left: 48.5%;
+}
+
+.father5 .child9 h6{
+  font-size: 12px;
+  font-weight: 700;
+  color: red;
+  margin-bottom: 1.5em;
+}
+.father5 .child9{
+    padding: 6em 1em;
+}
+.father5 .child9 h2{
+    font-size: 18px;
+    line-height: 1.5em;
+    margin-bottom: 0.5em;
+    word-spacing: 1px;
+  }
+
+.father5 .child9 button{
+    margin-top: 2em;
+   width: 8em;
+   height: 2.5em;
+   border-radius: 2em;
+   border: 0;
+  }
+  .father4{
+    margin-top: 2.5em;
+    padding-bottom: 5em;
+  }
+   
+/* ############ section child10 ############## */
+
+main .child10 figure{
+    flex: 0 1 23%;
+}
+main .child10 img{
+    width: 100%;
+    height: 100%;
+}
+main .child10{
+    padding-bottom: 4em;
+}
+
+/* ########## section.bg-color3 ########### */
+
+main .bg-color3{
+    height: 70vh;
+    background-image: linear-gradient(to right, rgb(18,119,229),rgb(125,242,101));
+}
+.bg-color3 .center h2{
+    color: white;
+}
+.bg-color3 .center2 .div1{
+    background-color: white;
+}
+main .bg-color3  input{
+   padding: 0 .5em;
+   height: 3em;
+   width: 25em;
+   border-radius: 5px;
+   border: 0;
+   margin-right: 1.5em;
+}
+main .bg-color3 textarea{
+    width: 96.5%;
+    border-radius: 5px;
+    padding: 0.5em .5em;
+
+}
+main .bg-color3 iframe{
+    border-radius: 100%;
+}
+main .bg-color3 button{
+    width: 13em;
+    height: 3em;
+    border-radius: 2em;
+    border: 0;
+    background-color: rgb(207,55,50);
+    color: white;
+}
+
+/* ############# footer ############# */
+ footer{
+    height: 50vh;
+    background-image: linear-gradient(to right,rgba(1, 1, 1, 0.722),rgb(1,1,1));
+ }
+ footer .father7{
+    padding-top:4em;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.171);
+    padding-bottom: 4em;
+ }
+ footer h2{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 0.5em;
+ }
+ footer p{
+    color: white;
+ }
+ footer .father8{
+    margin-top: 2em;
+ }
+ footer .child11{
+    flex: 0 1 50%;
+    display: flex;
+    align-items: center;
+ }
+footer .child11 h6{
+    color: white;
+    font-size: 15px;
+    margin-right: 1em;
+}
+footer .child11 p{
+    margin-right: 2em;
+    vertical-align: baseline;
+}
+footer .child11 a{
+    color: white;
+    margin-left: 1em;
+}
+
